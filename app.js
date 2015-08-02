@@ -1,5 +1,15 @@
 'use strict';
 
+var KEY = {
+  1: 'Ⅰ',
+  5: 'Ⅴ',
+  10: 'Ⅹ',
+  50: 'Ⅼ',
+  100: 'C',
+  500: 'Ⅾ',
+  1000: 'Ⅿ'
+};
+
 var toRomanNumerals = function (num) {
 
   var result;

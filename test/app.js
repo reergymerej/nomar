@@ -4,7 +4,43 @@ var will = require('willy').will;
 var app = require('../app.js');
 
 describe('1-10', function () {
-  it('should return I for 1', function () {
+  it('1 -> I', function () {
     will(app(1)).be('I');
+  });
+
+  it('2 -> II', function () {
+    will(app(2)).be('II');
+  });
+
+  it('3 -> III', function () {
+    will(app(3)).be('III');
+  });
+
+  it('4 -> IV', function () {
+    will(app(4)).be('IV');
+  });
+
+  it('5 -> V', function () {
+    will(app(5)).be('V');
+  });
+
+  it('6 -> VI', function () {
+    will(app(6)).be('VI');
+  });
+
+  it('7 -> VII', function () {
+    will(app(7)).be('VII');
+  });
+
+  it('8 -> VIII', function () {
+    will(app(8)).be('VIII');
+  });
+
+  it('9 -> IX', function () {
+    will(app(9)).be('IX');
+  });
+
+  it('10 -> X', function () {
+    will(app(10)).be('X');
   });
 });

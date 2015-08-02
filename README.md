@@ -9,3 +9,8 @@ var app = require('roman-numerals');
 console.log(app(1)); // I
 
 ```
+
+## TODO
+* roman - arabic
+* arabic - roman
+* detect input type, return opposite

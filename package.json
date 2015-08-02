@@ -1,0 +1,23 @@
+{
+  "name": "roman-numerals",
+  "version": "1.0.0",
+  "description": "[reference](https://en.wikipedia.org/wiki/Roman_numerals#Roman_numeric_system)",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reergymerej/roman-numerals.git"
+  },
+  "author": "Jeremy Greer <jeremy.greer.atl@gmail.com> (http://jeremygreer.herokuapp.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reergymerej/roman-numerals/issues"
+  },
+  "homepage": "https://github.com/reergymerej/roman-numerals#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "willy": "^1.0.1"
+  }
+}

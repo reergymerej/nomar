@@ -1,0 +1,2347 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"proto	Prototype"
+			],
+			[
+				"comp",
+				"component"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pr",
+				"proto	Prototype"
+			],
+			[
+				"FancyCh",
+				"FancyCheckbox"
+			],
+			[
+				"comm",
+				"comments"
+			],
+			[
+				"rec",
+				"received"
+			],
+			[
+				"auto",
+				"author"
+			],
+			[
+				"angular",
+				"Angular"
+			],
+			[
+				"rever",
+				"reverser"
+			],
+			[
+				"turP",
+				"turningPlanes"
+			],
+			[
+				"turnP",
+				"turningPlanes"
+			],
+			[
+				"app",
+				"applyRotation"
+			],
+			[
+				"rot",
+				"rotationAxis"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"cub",
+				"cubeInfo"
+			],
+			[
+				"cu",
+				"cube"
+			],
+			[
+				"rota",
+				"rotationAxis"
+			],
+			[
+				"Ro",
+				"makeRotationX"
+			],
+			[
+				"dire",
+				"direction"
+			],
+			[
+				"direct",
+				"directionX"
+			],
+			[
+				"geo",
+				"geometry"
+			],
+			[
+				"ma",
+				"makeRotationX"
+			],
+			[
+				"st",
+				"steps"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"t",
+				"tracks"
+			],
+			[
+				"tr",
+				"track"
+			],
+			[
+				"ste",
+				"step"
+			],
+			[
+				"s",
+				"sequence"
+			],
+			[
+				"cr",
+				"createSteps"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"d",
+				"down"
+			],
+			[
+				"l",
+				"land"
+			],
+			[
+				"b",
+				"beat"
+			],
+			[
+				"c",
+				"count"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"j",
+				"js"
+			],
+			[
+				"err",
+				"errorCount"
+			],
+			[
+				"clo",
+				"clojure-noob"
+			],
+			[
+				"fie",
+				"fields"
+			],
+			[
+				"typ",
+				"type"
+			],
+			[
+				"inter",
+				"interpretStringConfig"
+			],
+			[
+				"def",
+				"definition"
+			],
+			[
+				"ar",
+				"arrayTypeMatches"
+			],
+			[
+				"JSON",
+				"JSONSchema"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"getT",
+				"getTimeFromSeconds"
+			],
+			[
+				"col-x",
+				"col-xs-4"
+			],
+			[
+				"sty",
+				"stylesheets"
+			],
+			[
+				"have",
+				"haveOnly"
+			],
+			[
+				"tes",
+				"testDir"
+			],
+			[
+				"set",
+				"settings"
+			],
+			[
+				"exp",
+				"expect"
+			],
+			[
+				"er",
+				"err"
+			],
+			[
+				"is",
+				"isExtension"
+			],
+			[
+				"find",
+				"findByExtension"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"skil",
+				"skills"
+			],
+			[
+				"skiG",
+				"skillGroupCount"
+			],
+			[
+				"skillGroup",
+				"skillGroupCount"
+			],
+			[
+				"rout",
+				"routeProvider"
+			],
+			[
+				"angu",
+				"angular-route"
+			],
+			[
+				"template",
+				"templateUrl"
+			],
+			[
+				"bowe",
+				"bower_components"
+			],
+			[
+				"categ",
+				"category"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"bri",
+				"brighten"
+			],
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"col",
+				"collection"
+			],
+			[
+				"brow",
+				"browserData"
+			],
+			[
+				"doingTa",
+				"doingTaskId"
+			],
+			[
+				"doingT",
+				"doingTask"
+			],
+			[
+				"categor",
+				"categories"
+			],
+			[
+				"doing",
+				"doingCategory"
+			],
+			[
+				"Doin",
+				"DoingTaskSchema"
+			],
+			[
+				"Ta",
+				"TodoTask"
+			],
+			[
+				"desc",
+				"describe"
+			],
+			[
+				"descr",
+				"description"
+			],
+			[
+				"TodoT",
+				"TodoTaskSchema"
+			],
+			[
+				"ti",
+				"tildeResult"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"con",
+				"controllers"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"AP",
+				"API_PATH"
+			],
+			[
+				"catego",
+				"category"
+			],
+			[
+				"inf",
+				"infoYouWant"
+			],
+			[
+				"row",
+				"rowsThatMatchCriteria"
+			],
+			[
+				"di",
+				"divs"
+			],
+			[
+				"crit",
+				"criteria3"
+			],
+			[
+				"cla",
+				"classList"
+			],
+			[
+				"getE",
+				"getElementsByTagName"
+			],
+			[
+				"spa",
+				"spans"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"cat",
+				"categories"
+			],
+			[
+				"loadC",
+				"loadCollection"
+			],
+			[
+				"da",
+				"dateStart"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"tem",
+				"templates"
+			],
+			[
+				"temp",
+				"templateUrl"
+			],
+			[
+				"if",
+				"iframes"
+			],
+			[
+				"getCOmbO",
+				"getCombosOverX"
+			],
+			[
+				"com",
+				"combos"
+			],
+			[
+				"sum",
+				"sumArray"
+			],
+			[
+				"getCom",
+				"getCombosOfArrayItems"
+			],
+			[
+				"plu",
+				"pluckFromArrayByBinary"
+			],
+			[
+				"getC",
+				"getCombosOfArrayItems"
+			],
+			[
+				"get",
+				"getCombinationsOfXItems"
+			],
+			[
+				"comb",
+				"combos"
+			],
+			[
+				"getX",
+				"getXItemsFromIndex"
+			],
+			[
+				"pi",
+				"pickIndex"
+			],
+			[
+				"combo",
+				"comboLength"
+			],
+			[
+				"toSt",
+				"toString"
+			],
+			[
+				"group",
+				"groupLength"
+			],
+			[
+				"grou",
+				"groupLength"
+			],
+			[
+				"a",
+				"array"
+			],
+			[
+				"te",
+				"templateUrl"
+			],
+			[
+				"phr",
+				"phraseLetter"
+			],
+			[
+				"gues",
+				"guessInput"
+			],
+			[
+				"cha",
+				"charAt"
+			],
+			[
+				"Sc",
+				"ScopesCtrl3"
+			],
+			[
+				"Scops",
+				"ScopesCtrl2"
+			],
+			[
+				"done",
+				"donkeyService"
+			],
+			[
+				"car",
+				"cardService"
+			],
+			[
+				"wonS",
+				"wonStack1"
+			],
+			[
+				"drawS",
+				"drawStack1"
+			],
+			[
+				"dec",
+				"deck1"
+			],
+			[
+				"proto",
+				"prototype"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 96,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/app.js",
+			"settings":
+			{
+				"buffer_size": 85,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/.jshintrc",
+			"settings":
+			{
+				"buffer_size": 124,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/node.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/JSHint/JSHint.sublime-build",
+					""
+				],
+				[
+					"Packages/User/node.sublime-build",
+					""
+				],
+				[
+					"Packages/User/node.sublime-build",
+					"node"
+				],
+				[
+					"Packages/User/node.sublime-build",
+					"node debug"
+				]
+			],
+			[
+				"Packages/User/node.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/JSHint/JSHint.sublime-build",
+					""
+				],
+				[
+					"Packages/User/node.sublime-build",
+					""
+				],
+				[
+					"Packages/User/node.sublime-build",
+					"node"
+				],
+				[
+					"Packages/User/node.sublime-build",
+					"node debug"
+				]
+			],
+			[
+				"Packages/User/node.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/node.sublime-build",
+					""
+				],
+				[
+					"Packages/User/node.sublime-build",
+					"node"
+				],
+				[
+					"Packages/User/node.sublime-build",
+					"node debug"
+				]
+			],
+			[
+				"Packages/User/node.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 75.0,
+		"last_filter": "projas",
+		"selected_items":
+		[
+			[
+				"projas",
+				"Project: Save As"
+			],
+			[
+				"packdi",
+				"Package Control: Disable Package"
+			],
+			[
+				"packin",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"pro",
+				"Project: Save As"
+			],
+			[
+				"prosa",
+				"Project: Save As"
+			],
+			[
+				"proas",
+				"Project: Save As"
+			],
+			[
+				"ref",
+				"Project: Refresh Folders"
+			],
+			[
+				"jsa",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"refre",
+				"Project: Refresh Folders"
+			],
+			[
+				"syta js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sytajs",
+				"Set Syntax: JavaScript 6to5"
+			],
+			[
+				"sytax",
+				"Set Syntax: JavaScript 6to5"
+			],
+			[
+				"linterdis",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"linteren",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"dislin",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"pr",
+				"Project: Save As"
+			],
+			[
+				"re",
+				"Project: Refresh Folders"
+			],
+			[
+				"md",
+				"Markdown Preview: Copy to Clipboard"
+			],
+			[
+				"mdpb",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mdp",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mp",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mdche",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"symar",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sytnjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"projsa",
+				"Project: Save As"
+			],
+			[
+				"syntamd",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"sytax:go",
+				"Set Syntax: Go"
+			],
+			[
+				"synta: go",
+				"Set Syntax: Go"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"synta bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"proja",
+				"Project: Save As"
+			],
+			[
+				"mdb",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"mdbp",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"sor",
+				"Sort Lines"
+			],
+			[
+				"jsonpre",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"js",
+				"Set Syntax: JSON"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ist",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"sytamard",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"projasa",
+				"Project: Save As"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"dispa",
+				"Package Control: Disable Package"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"disab",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"ghmdp",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mdghp",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mdgh",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mdghpr",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mdprg",
+				"Markdown Preview: Github Flavored Markdown: Copy to Clipboard"
+			],
+			[
+				"MDGHP",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mdgp",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mdpre",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"mdch",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"buino",
+				"Build: node"
+			],
+			[
+				"bno",
+				"Build: node"
+			],
+			[
+				"node",
+				"Build: node"
+			],
+			[
+				"refr",
+				"Project: Refresh Folders"
+			],
+			[
+				"lin",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"sav",
+				"Project: Save As"
+			],
+			[
+				"openfi",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"code fo",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"sublin",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"nex",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"gu",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"enablin",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"togg",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"sub",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"mkgh",
+				"Markdown Preview: Github Flavored Markdown: Copy to Clipboard"
+			],
+			[
+				"mdghb",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"maghbr",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"magh",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"maghp",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mdprb",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mdghbr",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mabr",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"synt",
+				"Set Syntax: HTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"synthtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"syt ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"JAVAS",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jslin",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"jshin",
+				"JSHint"
+			],
+			[
+				"isnt",
+				"Package Control: Install Package"
+			],
+			[
+				"is pa",
+				"Package Control: List Packages"
+			],
+			[
+				"inde",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insal",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 235.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/grizzle/code/roman-numerals",
+		"/home/grizzle/code/roman-numerals/test"
+	],
+	"file_history":
+	[
+		"/home/grizzle/code/roman-numerals/test/app.js",
+		"/home/grizzle/code/roman-numerals/test/.jshintrc",
+		"/home/grizzle/code/roman-numerals/Makefile",
+		"/home/grizzle/code/roman-numerals/package.json",
+		"/home/grizzle/code/roman-numerals/.jshintrc",
+		"/home/grizzle/Downloads/Android-Racer-master/src/com/sIlence/androidracer/AndroidRacer.java",
+		"/home/grizzle/code/js/canvas-animation/shapes.js",
+		"/home/grizzle/code/js/canvas-animation/moveable.js",
+		"/home/grizzle/code/js/canvas-animation/vector.js",
+		"/home/grizzle/code/js/canvas-animation/app.js",
+		"/home/grizzle/code/js/canvas-animation/index.html",
+		"/home/grizzle/code/js/canvas-animation/color.js",
+		"/home/grizzle/code/js/canvas-animation/canvas.js",
+		"/home/grizzle/code/js/canvas-animation/template.js",
+		"/home/grizzle/code/another-framework/public/js/framework/builder/styles/builder.css",
+		"/home/grizzle/code/another-framework/public/js/framework/builder/styles/component.css",
+		"/home/grizzle/code/another-framework/public/js/framework/builder/partials/component.html",
+		"/home/grizzle/code/another-framework/public/js/framework/builder/partials/builder.html",
+		"/home/grizzle/code/another-framework/public/js/framework/builder/Toolbar.js",
+		"/home/grizzle/code/another-framework/public/js/framework/builder/test.js",
+		"/home/grizzle/code/another-framework/public/js/framework/fw.js",
+		"/home/grizzle/code/another-framework/public/js/app.js",
+		"/home/grizzle/code/another-framework/public/js/framework/builder/Component.js",
+		"/home/grizzle/code/another-framework/public/js/framework/builder/Builder.js",
+		"/home/grizzle/code/another-framework/views/layout.jade",
+		"/home/grizzle/code/another-framework/public/stylesheets/style.css",
+		"/home/grizzle/code/another-framework/public/js/framework/builder/builder.js",
+		"/home/grizzle/code/another-framework/public/js/framework/builder/index.js",
+		"/home/grizzle/code/another-framework/public/js/framework/builder.js",
+		"/home/grizzle/code/another-framework/public/partials/foo.html",
+		"/home/grizzle/code/another-framework/another-framework.sublime-project",
+		"/home/grizzle/code/another-framework/views/index.jade",
+		"/home/grizzle/code/filler/README.md",
+		"/home/grizzle/code/filler/test/playground/.fillerrc",
+		"/home/grizzle/code/filler/Gruntfile.js",
+		"/home/grizzle/code/filler/filler.sublime-project",
+		"/home/grizzle/code/filler/package.json",
+		"/home/grizzle/code/filler/test/app.js",
+		"/home/grizzle/code/react-playground/public/clock/index.html",
+		"/home/grizzle/code/react-playground/public/clock/index.jsx",
+		"/home/grizzle/code/react-playground/bower_components/bootstrap/less/mixins/center-block.less",
+		"/home/grizzle/code/react-playground/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/optimist/example/line_count_options.js",
+		"/home/grizzle/code/react-playground/bower_components/bootstrap/less/close.less",
+		"/home/grizzle/code/react-playground/node_modules/debug/component.json",
+		"/home/grizzle/code/react-playground/public/transferring-props/README.md",
+		"/home/grizzle/code/react-playground/public/.jshintrc",
+		"/home/grizzle/code/react-playground/public/transferring-props/index.jsx",
+		"/home/grizzle/code/react-playground/public/tutorial/comments.json",
+		"/home/grizzle/code/react-playground/public/displaying-data/README.md",
+		"/home/grizzle/code/react-playground/package.json",
+		"/home/grizzle/code/react-playground/public/transferring-props/index.html",
+		"/home/grizzle/code/react-playground/bower_components/bootstrap/js/transition.js",
+		"/home/grizzle/code/react-playground/bower_components/bootstrap/js/tab.js",
+		"/home/grizzle/code/react-playground/node_modules/jade/node_modules/transformers/lib/transformers.js",
+		"/home/grizzle/code/react-playground/bower_components/bootstrap/less/mixins/table-row.less",
+		"/home/grizzle/code/react-playground/public/mixins/README.md",
+		"/home/grizzle/code/react-playground/public/mixins/index.html",
+		"/home/grizzle/code/react-playground/public/mixins/index.jsx",
+		"/home/grizzle/code/react-playground/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch/minimatch.js",
+		"/home/grizzle/code/react-playground/node_modules/debug/Makefile",
+		"/home/grizzle/code/react-playground/bower_components/bootstrap/less/mixins.less",
+		"/home/grizzle/code/react-playground/node_modules/ejs/test/fixtures/includes/menu-item.ejs",
+		"/home/grizzle/code/react-playground/bower_components/bootstrap/less/mixins/nav-divider.less",
+		"/home/grizzle/code/react-playground/public/multiple-components/index.html",
+		"/home/grizzle/code/react-playground/public/multiple-components/index.jsx",
+		"/home/grizzle/code/react-playground/public/multiple-components/README.md",
+		"/home/grizzle/code/react-playground/node_modules/express/node_modules/utils-merge/LICENSE",
+		"/home/grizzle/code/react-playground/node_modules/ejs/lib/utils.js",
+		"/home/grizzle/code/react-playground/node_modules/ws/node_modules/ultron/index.js",
+		"/home/grizzle/code/react-playground/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/lib/compress.js",
+		"/home/grizzle/code/react-playground/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/lib/transform.js",
+		"/home/grizzle/code/react-playground/public/tutorial/index.html",
+		"/home/grizzle/code/react-playground/public/displaying-data/index.html",
+		"/home/grizzle/code/react-playground/public/displaying-data/index.jsx",
+		"/home/grizzle/code/react-playground/node_modules/jade/node_modules/void-elements/pre-publish.js",
+		"/home/grizzle/code/react-playground/public/tutorial/index.jsx",
+		"/home/grizzle/code/react-playground/react-tutorial-master/server.js",
+		"/home/grizzle/code/react-playground/public/web-sockets.js",
+		"/home/grizzle/code/react-playground/routes/ws.js",
+		"/home/grizzle/.ssh/id_rsa",
+		"/home/grizzle/.ssh/id_rsa.pub",
+		"/home/grizzle/reference/terminal/foo/.git/COMMIT_EDITMSG",
+		"/home/grizzle/code/react-playground/public/react-0.12.2/examples/server-rendering/webapp/static/bundle.js",
+		"/home/grizzle/code/react-playground/public/react-0.12.2/examples/shared/thirdparty/jquery.min.js",
+		"/home/grizzle/code/react-playground/routes/index.js",
+		"/home/grizzle/code/react-playground/README.md",
+		"/home/grizzle/code/react-playground/node_modules/jade/Readme_zh-cn.md",
+		"/home/grizzle/code/react-playground/public/react-0.12.2/examples/shared/thirdparty/console-polyfill.js",
+		"/home/grizzle/code/react-playground/public/web-sockets.html",
+		"/home/grizzle/code/react-playground/app.js",
+		"/home/grizzle/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/grizzle/code/react-playground/public/react-0.12.2/examples/transitions/transition.css",
+		"/home/grizzle/code/react-playground/react-tutorial-master/public/css/base.css",
+		"/home/grizzle/code/react-playground/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/source-map/build/prefix-utils.jsm",
+		"/home/grizzle/code/angular-demo/public/directives/js/app.js",
+		"/home/grizzle/code/angular-demo/bower_components/bootstrap/less/mixins/text-emphasis.less",
+		"/home/grizzle/code/angular-demo/bower_components/bootstrap/js/tab.js",
+		"/home/grizzle/code/angular-demo/public/directives/templates/date.html",
+		"/home/grizzle/code/angular-demo/views/directives.html",
+		"/home/grizzle/code/angular-demo/README.md",
+		"/home/grizzle/code/angular-demo/.gitignore",
+		"/home/grizzle/code/angular-demo/package.json",
+		"/home/grizzle/code/angular-demo/bower_components/angular/bower.json",
+		"/home/grizzle/code/angular-demo/bower_components/jquery/src/offset.js",
+		"/home/grizzle/code/angular-demo/bower.json",
+		"/home/grizzle/code/angular-demo/views/index.html",
+		"/home/grizzle/code/angular-demo/routes/index.js",
+		"/home/grizzle/code/angular-demo/bower_components/angular/README.md",
+		"/home/grizzle/code/angular-demo/app.js",
+		"/home/grizzle/code/angular-demo/directives/app.js",
+		"/home/grizzle/code/angular-demo/directives/date.html",
+		"/home/grizzle/code/angular-demo/directives/directives.js",
+		"/home/grizzle/code/angular-demo/directives/index.html",
+		"/home/grizzle/code/angular-demo/node_modules/jade/node_modules/void-elements/pre-publish.js",
+		"/home/grizzle/code/wug/routes/wuglets.js",
+		"/home/grizzle/code/wug/bin/www",
+		"/home/grizzle/code/wug/public/js/services/app.js",
+		"/home/grizzle/code/wug/package.json",
+		"/home/grizzle/code/wug/public/js/directives/app.js",
+		"/home/grizzle/code/wug/node_modules/body-parser/node_modules/type-is/index.js",
+		"/home/grizzle/code/wug/public/partials/home.html",
+		"/home/grizzle/code/wug/bower_components/jquery/src/core/parseHTML.js",
+		"/home/grizzle/code/wug/node_modules/cookie-parser/lib/parse.js",
+		"/home/grizzle/code/wug/routes/index.js",
+		"/home/grizzle/code/wug/bower_components/angular/README.md",
+		"/home/grizzle/code/wug/app.js",
+		"/home/grizzle/code/wug/bower_components/angular-route/.bower.json",
+		"/home/grizzle/code/wug/node_modules/express/lib/router/route.js"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/grizzle/Downloads/Android-Racer-master/src/com/sIlence/androidracer",
+			"/home/grizzle/code/runs",
+			"/home/grizzle/code/mileage",
+			"/home/grizzle/code/mean-tasks/",
+			"/home/grizzle/code/mean-tasks/public",
+			"/home/grizzle/code/mean-tasks/app",
+			"/home/grizzle/code/mean-tasks/public",
+			"/home/grizzle/code/mean-tasks/app",
+			"/home/grizzle/code/mean-tasks/config",
+			"/home/grizzle/code/mean-tasks/",
+			"/home/grizzle/code/nice-mean/test",
+			"/home/grizzle/code/nice-mean/",
+			"/home/grizzle/code/nice-mean/app",
+			"/home/grizzle/code/nice-mean/public/views,/home/grizzle/code/nice-mean/public/js",
+			"/home/grizzle/code/nice-mean/public/views,/home/grizzle/code/nice-mean/public/views",
+			"/home/grizzle/code/nice-mean/public/views",
+			"/home/grizzle/code/nice-mean/public/js",
+			"/home/grizzle/code/nice-mean/",
+			"/home/grizzle/code/nice-mean/public",
+			"/home/grizzle/code/nice-mean/app",
+			"/home/grizzle/code/nice-mean",
+			"/home/grizzle/code/nice-mean/app",
+			"/home/grizzle/code/nice-mean/public/js",
+			"/home/grizzle/code/nice-mean/public",
+			"/home/grizzle/node_projects/mean-notes",
+			"/home/grizzle/node_projects/notes",
+			"/home/grizzle/rails_projects/sample_app",
+			"/var/www/reergymerej/dev/taskManager/js",
+			"/var/www/reergymerej/dev/taskManager/",
+			"/var/www/reergymerej/dev/taskManager/js",
+			"/var/www/reergymerej/dev/taskManager/lib/resteasy",
+			"C:\\xampp\\htdocs\\reergymerej.com\\dev\\taskManager\\lib\\resteasy\\",
+			"C:\\xampp\\htdocs\\reergymerej.com\\dev\\taskManager\\",
+			"C:\\xampp\\htdocs\\reergymerej.com\\dev\\taskManager\\js",
+			"C:\\xampp\\htdocs\\reergymerej.com\\dev\\taskManager",
+			"C:\\xampp\\htdocs\\reergymerej.com\\dev\\modular-backbone\\js",
+			"C:\\xampp\\htdocs\\reergymerej.com\\dev\\resteasy",
+			"C:\\xampp\\htdocs\\reergymerej.com\\dev\\a2b\\rest",
+			"C:\\xampp\\htdocs\\reergymerej.com\\dev\\a2b\\rest\\Slim"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"onCreate",
+			"main",
+			"this.",
+			"+=",
+			"=",
+			"\n",
+			".r",
+			"r",
+			"rectangle",
+			"context",
+			"ctx",
+			"vX",
+			"x",
+			"canvas",
+			"rectangle",
+			"canvas",
+			"onFrame",
+			"canvas",
+			"config",
+			"\n",
+			"value",
+			"shapes",
+			"ctx",
+			"me.",
+			"Component",
+			"me.",
+			"onClick",
+			"SELECT",
+			"startTop",
+			"startRight",
+			"startBottom",
+			"this",
+			"attachEvents",
+			"attachListeners",
+			"this",
+			"toggleDestroyButton",
+			"SNAP",
+			"x",
+			"5px",
+			"toggleDestroyButton",
+			"this",
+			":hover",
+			"3px",
+			"me.x",
+			"this.x",
+			".component",
+			"class",
+			"hover",
+			"component",
+			"position",
+			".component",
+			"component",
+			"value",
+			"Hours",
+			"React.createClass",
+			"return",
+			"console.log('rendering",
+			"render",
+			"minutes",
+			"interval",
+			"],\n",
+			"div",
+			"CommentBox",
+			"Comment",
+			"content",
+			"comments",
+			"handleCommentSubmit",
+			"onCommentSubmit",
+			"handleCommentSubmit",
+			"refreshes",
+			"pollInterval",
+			"receive",
+			"\"",
+			"text",
+			"onCommentSubmit",
+			"handleCommentSubmit",
+			"onCommentSubmit",
+			"<em>",
+			"2",
+			"div>",
+			"<code>",
+			"</code>",
+			"code>",
+			"<",
+			">",
+			"<",
+			"debugger;",
+			"$scope",
+			"/js",
+			"/directives",
+			"wugletSource;",
+			"wugletId",
+			"source",
+			"'wuglet-one'",
+			"wugServices",
+			"Wuglet",
+			"a",
+			"2",
+			"1",
+			"AppCtrl",
+			"ngRoute",
+			"counter",
+			"tabs",
+			"foo",
+			"tabs",
+			"<tab>",
+			"partials/",
+			"<body>",
+			"ints[0]",
+			"'$apply'",
+			"();",
+			"x",
+			"lab2048",
+			"body>",
+			"style>",
+			"\"",
+			"scriptsrc",
+			"<script",
+			"p",
+			"data",
+			"debugger;",
+			"ul",
+			":",
+			"building apps simpler",
+			"three",
+			",",
+			"#",
+			"'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"attachListeners",
+			"updates",
+			"START_KEYCODE",
+			"  ",
+			"value definition",
+			"value-definition",
+			"  ",
+			"afterProcessFile",
+			"\",",
+			"-",
+			"    ",
+			"ng",
+			"  ",
+			"doingCategories",
+			"catchError",
+			"doingCategory",
+			"DoingCategory",
+			"doingCategories",
+			"todoCategories",
+			"CategorySchema",
+			"categories",
+			"category",
+			"Category",
+			"doingTask",
+			"DoingTasks",
+			"DoingTask",
+			"doingTask",
+			"doingTasks",
+			"doingTask",
+			"DoingTaskSchema",
+			"DoingTask",
+			"taskDescription",
+			"todoTasks",
+			"'/todo-tasks",
+			"todo-tasks",
+			"TodoTask",
+			"TodoTaskSchema",
+			"  ",
+			"\\n",
+			"\\t",
+			"Note",
+			"NoteSchema",
+			" ",
+			"\\t",
+			"    ",
+			"Category",
+			"CategorySchema",
+			"  ",
+			"h1",
+			"  ",
+			"",
+			"categoriesPath",
+			"notesPath",
+			"//console.time",
+			"\\1@yourmom.boner",
+			"jgLocalStorage.loadCollection",
+			"loadCollection('notes')",
+			"loadNotes",
+			"combinations",
+			"getCombosEqOrLt",
+			"wonStack2",
+			"wonStack1",
+			"drawStack2",
+			"drawStack1",
+			"wonStack2",
+			"wonStack1",
+			"drawStack2",
+			"drawStack1",
+			"<code class=\"block\">",
+			"[\\1],\\n",
+			"'\\1', ",
+			"$grayLight",
+			"$lightGray",
+			"set",
+			"get",
+			"LoginView",
+			"",
+			"User",
+			"expiration",
+			"COOKIE_DAYS",
+			"router",
+			"lastKey",
+			"\",\\n\"",
+			"\\\\\"",
+			"\\n\"",
+			"\",\\n",
+			"\\\\\"",
+			"\\\"",
+			"selectedListId",
+			"taskViewer",
+			"ListSelector",
+			"listSelector",
+			"todolist:selected",
+			"TodoList",
+			"this.collection",
+			"validateForm",
+			"getListFromListEl",
+			"TodoManagementView",
+			"HintModel",
+			"HintCollection",
+			"currentTodoCollection",
+			"array()",
+			"\\n",
+			") {",
+			"function (",
+			"\\n",
+			"a",
+			"c",
+			"b",
+			"a",
+			"todoTaskTemplate",
+			"doingTemplate",
+			"todoTemplate",
+			"doingTaskTemplate",
+			"doingView",
+			"doneTemplate",
+			"DoneView",
+			"DoneTaskCollectionView",
+			"done",
+			"doing",
+			"DoingView",
+			"collections/doing/TaskCollection",
+			"models/doing/TaskModel",
+			"TodoListCollection",
+			"TodoListModel",
+			"TodoListView",
+			"todoListCollectionTemplate",
+			"TodoListModel"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 85,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "test/.jshintrc",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 297.0
+	},
+	"output.find_results":
+	{
+		"height": 88.0
+	},
+	"pinned_build_system": "",
+	"project": "roman-numerals.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"test/app",
+				"test/app.js"
+			],
+			[
+				"test/jshin",
+				"test/.jshintrc"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"mak",
+				"Makefile"
+			],
+			[
+				"test/a",
+				"test/app.js"
+			],
+			[
+				"a",
+				"app.js"
+			],
+			[
+				"jsh",
+				".jshintrc"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"sha",
+				"shapes.js"
+			],
+			[
+				"ve",
+				"vector.js"
+			],
+			[
+				"move",
+				"moveable.js"
+			],
+			[
+				"canv",
+				"canvas.js"
+			],
+			[
+				"co",
+				"color.js"
+			],
+			[
+				"sa",
+				"shapes.js"
+			],
+			[
+				"te",
+				"template.js"
+			],
+			[
+				"coo",
+				"color.js"
+			],
+			[
+				"can",
+				"canvas.js"
+			],
+			[
+				"ap",
+				"app.js"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"compofa",
+				"public/js/framework/builder/componentFactory.js"
+			],
+			[
+				"build/sty/bu",
+				"public/js/framework/builder/styles/builder.css"
+			],
+			[
+				"comp",
+				"public/js/framework/builder/Component.js"
+			],
+			[
+				"view/la",
+				"views/layout.jade"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"clock/ind",
+				"public/clock/index.jsx"
+			],
+			[
+				"publ/clock/rea",
+				"public/clock/README.md"
+			],
+			[
+				"transindejsx",
+				"public/transferring-props/index.jsx"
+			],
+			[
+				"transferprop/rea",
+				"public/transferring-props/README.md"
+			],
+			[
+				"mixin/ind",
+				"public/mixins/index.jsx"
+			],
+			[
+				"mixin/read",
+				"public/mixins/README.md"
+			],
+			[
+				"multip/rea",
+				"public/multiple-components/README.md"
+			],
+			[
+				"mul/inde.js",
+				"public/multiple-components/index.jsx"
+			],
+			[
+				"multiplcomp/in",
+				"public/multiple-components/index.html"
+			],
+			[
+				"publ/disp/rea",
+				"public/displaying-data/README.md"
+			],
+			[
+				"pub/json",
+				"public/tutorial/comments.json"
+			],
+			[
+				"routes/ws",
+				"routes/ws.js"
+			],
+			[
+				"pub/tut/json",
+				"public/tutorial/comments.json"
+			],
+			[
+				"templ/da",
+				"public/directives/templates/date.html"
+			],
+			[
+				"dire/temp/da",
+				"public/directives/templates/date.html"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"route/ind",
+				"routes/index.js"
+			],
+			[
+				".gi",
+				".gitignore"
+			],
+			[
+				"route/",
+				"routes/index.js"
+			],
+			[
+				"wugletctr",
+				"public/js/controllers/WugletCtrl.js"
+			],
+			[
+				"pub/js/ap",
+				"public/js/app.js"
+			],
+			[
+				"parti/wug",
+				"public/partials/wuglet.html"
+			],
+			[
+				"route/wuglet",
+				"routes/wuglets.js"
+			],
+			[
+				"route/wugl",
+				"routes/wuglets.js"
+			],
+			[
+				"pub/js/ser",
+				"public/js/services/app.js"
+			],
+			[
+				"pub/js/servic",
+				"public/js/services/app.js"
+			],
+			[
+				"app.js",
+				"app.js"
+			],
+			[
+				"publ/ap",
+				"public/js/app.js"
+			],
+			[
+				"nav",
+				"public/js/controllers/NavCtrl.js"
+			],
+			[
+				"state1ct",
+				"public/js/controllers/State1Ctrl.js"
+			],
+			[
+				"state1li",
+				"public/partials/state1.list.html"
+			],
+			[
+				"navct",
+				"public/js/controllers/NavCtrl.js"
+			],
+			[
+				"fooc",
+				"public/js/controllers/FooCtrl.js"
+			],
+			[
+				"tabct",
+				"public/js/controllers/TabsCtrl.js"
+			],
+			[
+				"tabc",
+				"public/js/controllers/TabsCtrl.js"
+			],
+			[
+				"contr/app",
+				"public/js/controllers/app.js"
+			],
+			[
+				"rout/in",
+				"routes/index.js"
+			],
+			[
+				"ser",
+				"services.js"
+			],
+			[
+				"angula",
+				"angular.js"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"pbu/res",
+				"public/resume.json"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"header",
+				"packages/system/public/views/header.html"
+			],
+			[
+				"exer/loo",
+				"src/github.com/reergymerej/tour.golang.org/exercise/loops.go"
+			],
+			[
+				"exer/rea",
+				"src/github.com/reergymerej/tour.golang.org/exercise/readers.go"
+			],
+			[
+				"exer/err",
+				"src/github.com/reergymerej/tour.golang.org/exercise/errors.go"
+			],
+			[
+				"exer/strin",
+				"src/github.com/reergymerej/tour.golang.org/exercise/stringers.go"
+			],
+			[
+				"fib",
+				"src/github.com/reergymerej/tour.golang.org/exercise/fibonacci.go"
+			],
+			[
+				"golangorg/re",
+				"src/github.com/reergymerej/tour.golang.org/README.md"
+			],
+			[
+				"exermap",
+				"src/github.com/reergymerej/tour.golang.org/exercise/maps.go"
+			],
+			[
+				"exerm",
+				"src/github.com/reergymerej/tour.golang.org/exercise/maps"
+			],
+			[
+				"revete",
+				"src/github.com/reergymerej/stringutil/reverse_test.go"
+			],
+			[
+				"rever",
+				"src/github.com/reergymerej/stringutil/reverse.go"
+			],
+			[
+				"out",
+				"file/output.test"
+			],
+			[
+				"fil/ap",
+				"file/app.source"
+			],
+			[
+				"ma",
+				"Makefile"
+			],
+			[
+				"mat",
+				"node_modules/mocha/node_modules/glob/test/globstar-match.js"
+			],
+			[
+				"test/.",
+				"test/.jshintrc"
+			],
+			[
+				".g",
+				".gitignore"
+			],
+			[
+				".",
+				".jshintrc"
+			],
+			[
+				"r",
+				"README.md"
+			],
+			[
+				"vi/in",
+				"views/index.jade"
+			],
+			[
+				"st",
+				"public/stylesheets/style.css"
+			],
+			[
+				"s",
+				"public/stylesheets/style.css"
+			],
+			[
+				"vi/l",
+				"views/layout.jade"
+			],
+			[
+				"pu/a",
+				"public/app.js"
+			],
+			[
+				"",
+				"app.js"
+			],
+			[
+				"stye",
+				"public/stylesheets/style.css"
+			],
+			[
+				"indejad",
+				"views/index.jade"
+			],
+			[
+				"view/inde",
+				"views/index.jade"
+			],
+			[
+				"inde",
+				"routes/index.js"
+			],
+			[
+				"pro",
+				"project.clj"
+			],
+			[
+				"src/",
+				"src/clojure_noob/core.clj"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"view/ind",
+				"views/index.jade"
+			],
+			[
+				"view",
+				"views/layout.jade"
+			],
+			[
+				".jsh",
+				".jshintrc"
+			],
+			[
+				"indeja",
+				"views/index.jade"
+			],
+			[
+				"layout",
+				"views/layout.jade"
+			],
+			[
+				"view/layou",
+				"views/layout.jade"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"test.jshint",
+				"test/.jshintrc"
+			],
+			[
+				"te/.js",
+				"test/.jshintrc"
+			],
+			[
+				"te/app",
+				"test/app.js"
+			],
+			[
+				"make",
+				"Makefile"
+			],
+			[
+				"person",
+				"examples/Person.schema.1.0.json"
+			],
+			[
+				"sim2",
+				"examples/SimpleList.schema.2.json"
+			],
+			[
+				"simpl",
+				"examples/SimpleList.json"
+			],
+			[
+				"simpsch",
+				"examples/SimpleList.schema.json"
+			],
+			[
+				"sub",
+				"examples/sub-schemas.json"
+			],
+			[
+				"exaba",
+				"examples/Basic.schema.1.0.json"
+			],
+			[
+				"somesch.json",
+				"examples/Some.schema.1.2.json"
+			],
+			[
+				"arrayw",
+				"examples/ArrayWithMixed.json"
+			],
+			[
+				"array",
+				"examples/ArrayWithMixed.schema.1.0.json"
+			],
+			[
+				"mores",
+				"examples/More.schema.1.0.json"
+			],
+			[
+				"somesche",
+				"examples/Some.schema.2.0.json"
+			],
+			[
+				"somsch",
+				"examples/Some.schema.1.1.json"
+			],
+			[
+				"exam/mores",
+				"examples/More.schema.1.0.json"
+			],
+			[
+				"examp/more.js",
+				"examples/More.json"
+			],
+			[
+				"examples/some2",
+				"examples/Some.schema.2.0.json"
+			],
+			[
+				"somesche1.1",
+				"examples/Some.schema.1.1.json"
+			],
+			[
+				"sc/",
+				"schema-reader/reader.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"jerem",
+				"~/code/jeremygreer/jeremygreer.sublime-project"
+			],
+			[
+				"runs",
+				"~/code/runs.sublime-project"
+			],
+			[
+				"",
+				"~/code/lets-get-m.sublime-project"
+			],
+			[
+				"l",
+				"~/code/lets-get-m.sublime-project"
+			],
+			[
+				"le",
+				"~/code/lets-get-m.sublime-project"
+			],
+			[
+				"lets",
+				"~/code/lets-get-m.sublime-project"
+			],
+			[
+				"let",
+				"~/code/lets-get-m.sublime-project"
+			],
+			[
+				"will",
+				"~/code/willy/willy.sublime-project"
+			],
+			[
+				"run",
+				"~/code/run-tracker/run-tracker.sublime-project"
+			],
+			[
+				"tex",
+				"~/code/texas-ranger/texas-ranger.sublime-project"
+			],
+			[
+				"wil",
+				"~/code/willy/willy.sublime-project"
+			],
+			[
+				"jere",
+				"~/code/jeremygreer/jeremygreer.sublime-project"
+			],
+			[
+				"mil",
+				"~/code/mileage/mileage.sublime-project"
+			],
+			[
+				"mean",
+				"~/code/mean.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"proc",
+				"process"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

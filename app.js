@@ -1,54 +1,63 @@
 'use strict';
 
-var KEY = {
-  1: 'Ⅰ',
-  5: 'Ⅴ',
-  10: 'Ⅹ',
-  50: 'Ⅼ',
+var KEYS = {
+  1: 'I',
+  5: 'V',
+  10: 'X',
+  50: 'L',
   100: 'C',
-  500: 'Ⅾ',
-  1000: 'Ⅿ'
+  500: 'D',
+  1000: 'M'
 };
 
-var toRomanNumerals = function (num) {
+var getNextRoman = function (num) {
+  var next;
 
+  Object.keys(KEYS).every(function (key) {
+    key = parseInt(key);
+    if (num < key) {
+      next = key;
+    }
+
+    return !next;
+  });
+
+  return next;
+};
+
+var getPreviousRoman = function (num) {
+  var previous;
+
+  Object.keys(KEYS).every(function (key) {
+    key = parseInt(key);
+    if (num > key) {
+      previous = key;
+    }
+  });
+
+  return previous;
+};
+
+var toRoman = function (num) {
   var result;
+  var next;
+  var previous;
 
-  switch (num) {
-    case 1:
-      result = 'I';
-      break;
-    case 2:
-      result = 'II';
-      break;
-    case 3:
-      result = 'III';
-      break;
-    case 4:
-      result = 'IV';
-      break;
-    case 5:
-      result = 'V';
-      break;
-    case 6:
-      result = 'VI';
-      break;
-    case 7:
-      result = 'VII';
-      break;
-    case 8:
-      result = 'VIII';
-      break;
-    case 9:
-      result = 'IX';
-      break;
-    case 10:
-      result = 'X';
-      break;
+  if (KEYS[num]) {
+    result = KEYS[num];
+  } else {
+    next = getNextRoman(num);
+    previous = getPreviousRoman(num);
+
+    if (num - previous === 1) {
+      result = KEYS[previous] + KEYS[1];
+    } else if (num - previous === 2) {
+      result = KEYS[previous] + KEYS[1] + KEYS[1];
+    }
   }
 
   return result;
 };
 
 
-module.exports = toRomanNumerals;
+module.exports = toRoman;

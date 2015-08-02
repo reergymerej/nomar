@@ -44,3 +44,13 @@ describe('1-10', function () {
     will(app(10)).be('X');
   });
 });
+
+describe('invalid values', function () {
+  it('returns undefined for negatives', function () {
+    will(app(-1)).be(undefined);
+  });
+
+  it('returns undefined for 0', function () {
+    will(app(0)).be(undefined);
+  });
+});

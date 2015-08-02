@@ -2,7 +2,9 @@
   "node": true,
   "predef": [
     "describe",
+    "xdescribe",
     "it",
+    "xit",
     "beforeEach",
     "afterEach",
     "before",

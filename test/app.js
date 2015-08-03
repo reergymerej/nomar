@@ -68,13 +68,15 @@ describe('10-20', function () {
   });
 });
 
-xdescribe('spot check', function () {
+describe('spot check', function () {
   it('should also work', function () {
     var map = {
+      40: 'XL',
       50: 'L',
       51: 'LI',
       59: 'LIX',
       207: 'CCVII',
+      900: 'CM',
       1066: 'MLXVI',
       1904: 'MCMIV',
       1954: 'MCMLIV',

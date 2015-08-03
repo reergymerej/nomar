@@ -68,7 +68,7 @@ describe('10-20', function () {
   });
 });
 
-describe('spot check', function () {
+xdescribe('spot check', function () {
   it('should also work', function () {
     var map = {
       50: 'L',

@@ -28,7 +28,7 @@ var getNextRoman = function (num) {
 var getPreviousRoman = function (num) {
   var previous;
 
-  Object.keys(KEYS).every(function (key) {
+  Object.keys(KEYS).forEach(function (key) {
     key = parseInt(key);
     if (num > key) {
       previous = key;
@@ -40,19 +40,37 @@ var getPreviousRoman = function (num) {
 
 var toRoman = function (num) {
   var result;
-  var next;
   var previous;
+  var next;
+  var diffPrev;
+  var diffNext;
 
-  if (KEYS[num]) {
-    result = KEYS[num];
-  } else {
-    next = getNextRoman(num);
-    previous = getPreviousRoman(num);
+  if (num > 0) {
+    if (KEYS[num]) {
+      result = KEYS[num];
 
-    if (num - previous === 1) {
-      result = KEYS[previous] + KEYS[1];
-    } else if (num - previous === 2) {
-      result = KEYS[previous] + KEYS[1] + KEYS[1];
+    } else {
+      next = getNextRoman(num);
+      previous = getPreviousRoman(num);
+      diffPrev = num - previous;
+      diffNext = next - num;
+
+      if (diffPrev === 1) {
+        result = KEYS[previous] + KEYS[1];
+
+      } else if (diffNext === 1) {
+        result = KEYS[1] + KEYS[next];
+
+      } else if (diffPrev === 2) {
+        result = KEYS[previous] + toRoman(2);
+
+      } else if (diffPrev === 3) {
+        result = KEYS[previous] + toRoman(3);
+
+      } else if (next - num === 1) {
+        result = KEYS[previous] + KEYS[next];
+
+      }
     }
   }
 

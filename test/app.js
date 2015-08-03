@@ -62,7 +62,29 @@ describe('10-20', function () {
 
     Object.keys(map).forEach(function (num) {
       num = parseInt(num, 10);
-      // console.log('%s -> %s', num, map[num]);
+      console.log('    %s -> %s', num, map[num]);
+      will(app(num)).be(map[num]);
+    });
+  });
+});
+
+describe('spot check', function () {
+  it('should also work', function () {
+    var map = {
+      50: 'L',
+      51: 'LI',
+      59: 'LIX',
+      207: 'CCVII',
+      1066: 'MLXVI',
+      1904: 'MCMIV',
+      1954: 'MCMLIV',
+      1990: 'MCMXC',
+      2014: 'MMXIV'
+    };
+
+    Object.keys(map).forEach(function (num) {
+      num = parseInt(num, 10);
+      console.log('    %s -> %s', num, map[num]);
       will(app(num)).be(map[num]);
     });
   });

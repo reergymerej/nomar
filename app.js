@@ -10,6 +10,8 @@ var KEYS = {
   1000: 'M'
 };
 
+var cache = {};
+
 var getNextRoman = function (num) {
   var next;
 
@@ -45,7 +47,9 @@ var toRoman = function (num) {
   var diffPrev;
   var diffNext;
 
-  if (num > 0) {
+  result = cache[num];
+
+  if (num > 0 && !result) {
     if (KEYS[num]) {
       result = KEYS[num];
 
@@ -55,23 +59,16 @@ var toRoman = function (num) {
       diffPrev = num - previous;
       diffNext = next - num;
 
-      if (diffPrev === 1) {
-        result = KEYS[previous] + KEYS[1];
+      if (diffNext === 1) {
+        result = toRoman(diffNext) + KEYS[next];
 
-      } else if (diffNext === 1) {
-        result = KEYS[1] + KEYS[next];
-
-      } else if (diffPrev === 2) {
-        result = KEYS[previous] + toRoman(2);
-
-      } else if (diffPrev === 3) {
-        result = KEYS[previous] + toRoman(3);
-
-      } else if (next - num === 1) {
-        result = KEYS[previous] + KEYS[next];
+      } else if (diffPrev === 1 || diffPrev === 2 || diffPrev === 3) {
+        result = KEYS[previous] + toRoman(diffPrev);
 
       }
     }
+
+    cache[num] = result;
   }
 
   return result;

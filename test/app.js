@@ -45,6 +45,29 @@ describe('1-10', function () {
   });
 });
 
+describe('10-20', function () {
+  it('should work', function () {
+    var map = {
+      11: 'XI',
+      12: 'XII',
+      13: 'XIII',
+      14: 'XIV',
+      15: 'XV',
+      16: 'XVI',
+      17: 'XVII',
+      18: 'XVIII',
+      19: 'XIX',
+      20: 'XX'
+    };
+
+    Object.keys(map).forEach(function (num) {
+      num = parseInt(num, 10);
+      // console.log('%s -> %s', num, map[num]);
+      will(app(num)).be(map[num]);
+    });
+  });
+});
+
 describe('invalid values', function () {
   it('returns undefined for negatives', function () {
     will(app(-1)).be(undefined);

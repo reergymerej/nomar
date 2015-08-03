@@ -16,7 +16,7 @@ var getNextRoman = function (num) {
   var next;
 
   Object.keys(KEYS).every(function (key) {
-    key = parseInt(key);
+    key = parseInt(key, 10);
     if (num < key) {
       next = key;
     }
@@ -31,7 +31,7 @@ var getPreviousRoman = function (num) {
   var previous;
 
   Object.keys(KEYS).forEach(function (key) {
-    key = parseInt(key);
+    key = parseInt(key, 10);
     if (num > key) {
       previous = key;
     }
@@ -62,7 +62,7 @@ var toRoman = function (num) {
       if (diffNext === 1) {
         result = toRoman(diffNext) + KEYS[next];
 
-      } else if (diffPrev === 1 || diffPrev === 2 || diffPrev === 3) {
+      } else {
         result = KEYS[previous] + toRoman(diffPrev);
 
       }

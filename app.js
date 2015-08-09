@@ -83,6 +83,8 @@ var toRoman = function (num) {
   return result;
 };
 
+// ================================================
+
 var SYMBOLS = {
   'I': 1,
   'V': 5,

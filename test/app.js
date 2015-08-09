@@ -37,6 +37,16 @@ describe('roman numerals to arabic', function () {
       });
     });
   });
+
+  describe('spot check', function () {
+    it('89  LXXXIX', function () {
+      will(app('LXXXIX')).be(89);
+    });
+
+    it('49  XLIX', function () {
+      will(app('XLIX')).be(49);
+    });
+  });
 });
 
 // xdescribe('1-10', function () {

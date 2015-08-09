@@ -6,6 +6,7 @@
 ```js
 var app = require('roman-numerals');
 
+console.log(app('LXXXIX')); // 89
 console.log(app(1)); // I
 
 ```

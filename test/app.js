@@ -150,12 +150,20 @@ describe('spot check', function () {
   });
 });
 
-// xdescribe('invalid values', function () {
-//   it('returns undefined for negatives', function () {
-//     will(app(-1)).be(undefined);
-//   });
+describe('invalid values', function () {
+  it('returns undefined for undefined', function () {
+    will(app()).be(undefined);
+  });
 
-//   it('returns undefined for 0', function () {
-//     will(app(0)).be(undefined);
-//   });
-// });
+  it('returns undefined for null', function () {
+    will(app(null)).be(undefined);
+  });
+
+  it('returns undefined for negatives', function () {
+    will(app(-1)).be(undefined);
+  });
+
+  it('returns \'\' for 0', function () {
+    will(app(0)).be('');
+  });
+});

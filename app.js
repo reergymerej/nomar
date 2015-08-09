@@ -1,92 +1,5 @@
 'use strict';
 
-// var UNITS = [1, 5, 10, 50, 100, 500, 1000];
-// var ROMAN = ['I', 'V', 'X', 'L', 'C', 'D', 'M'];
-
-// var cache = {};
-
-// var lookupRoman = function (num) {
-//   var index = UNITS.indexOf(num);
-//   return (index > -1) ? ROMAN[index] : undefined;
-// };
-
-// var getNextUnit = function (num) {
-//   var _unit;
-
-//   UNITS.every(function (unit) {
-//     if (num < unit) {
-//       _unit = unit;
-//     }
-
-//     return !_unit;
-//   });
-
-//   return _unit;
-// };
-
-// var getPreviousUnit = function (num) {
-//   var index;
-
-//   UNITS.forEach(function (unit, i) {
-//     if (num > unit) {
-//       index = i;
-//     }
-//   });
-
-//   return UNITS[index];
-// };
-
-// var getNextRoman = function (num) {
-//   var nextUnit = getNextUnit(num);
-//   return nextUnit ? ROMAN[UNITS.indexOf(nextUnit)] : undefined;
-// };
-
-// var getPreviousRoman = function (num) {
-//   var previousUnit = getPreviousUnit(num);
-//   return previousUnit ? ROMAN[UNITS.indexOf(previousUnit)] : undefined;
-// };
-
-// var toRoman = function (num) {
-//   var result;
-//   var previousRoman;
-//   var nextRoman;
-//   var diffPrev;
-//   var diffNext;
-//   var nextUnit;
-//   var previousUnit;
-
-//   result = cache[num];
-
-//   if (num > 0 && !result) {
-//     result = lookupRoman(num);
-    
-//     if (!result) {
-//       nextRoman = getNextRoman(num);
-//       previousRoman = getPreviousRoman(num);
-//       nextUnit = getNextUnit(num);
-//       previousUnit = getPreviousUnit(num);
-//       diffPrev = num - previousUnit;
-//       diffNext = nextUnit - num;
-
-//       if (diffNext === 1) {
-//         result = toRoman(diffNext) + nextRoman;
-
-//       } else {
-//         result = previousRoman + toRoman(diffPrev);
-
-//       }
-//     }
-
-//     cache[num] = result;
-//   }
-
-//   return result;
-// };
-
-
-
-// ================================================
-
 var SYMBOLS = {
   'I': 1,
   'V': 5,
@@ -131,51 +44,6 @@ var SUB_THRESH = {
   1000: 100
 };
 
-// var ODDBALLS = {
-//   4: { symbol: 'IV', regex: /.*4$/ },
-//   9: { symbol: 'IX', regex: /.*9$/ },
-//   40: { symbol: 'XL', regex: /.*/ },
-//   90: { symbol: 'XC', regex: /.*/ },
-//   400: { symbol: 'CD', regex: /.*/ },
-//   900: { symbol: 'CM', regex: /.*/ }
-// };
-
-// var toRoman = function (num) {
-//   var roman = '';
-//   var str = num += '';
-
-//   // TODO
-//   var emergency = 0;
-
-//   var handleNormal = function (str, num) {
-//     var handled;
-//     Object.keys(REVERSE).every(function (key) {
-
-
-//       return !handled;
-//     });
-
-//     return num;
-//   };
-
-//   while (num && emergency++ < 5) {
-//     // check oddballs
-//     // Object.keys(ODDBALLS).forEach(function (oddball) {
-
-//     //   if (ODDBALLS[4].regex.test(str)) {
-//     //     roman = ODDBALLS[4].symbol + roman;
-//     //     num -= 4;
-//     //   }
-//     // });
-
-//     num = handleNormal(str, num);
-//   } 
-
-//   return roman;
-// };
-
-// ================================================
-
 var getThreshold = function (num) {
   var _threshold;
 
@@ -196,12 +64,6 @@ var getNextThreshold = function (num) {
   return thresholds[index - 1];
 };
 
-var getPreviousThreshold = function (num) {
-  var threshold = getThreshold(num);
-  var index = thresholds.indexOf(threshold);
-  return thresholds[index + 1] || thresholds[thresholds.length - 1];
-};
-
 var getSubtractiveThreshold = function (num) {
   return SUB_THRESH[num];
 };
@@ -212,10 +74,8 @@ var getRoman = function (num) {
   var thresholdRoman = REVERSE[threshold];
   var nextThreshold = getNextThreshold(num);
   var nextThresholdRoman = REVERSE[nextThreshold];
-
   var required = Math.floor(num / threshold);
   var accountedFor = 0;
-  
   var isSubtractive = !!SUBTRACTIVE[num];
   var subtractiveThreshold;
   var subtractiveThresholdRoman;
@@ -257,23 +117,28 @@ var getParts = function (num) {
 };
 
 var toRoman = function (num) {
-  var parts = getParts(num);
+  var parts;
   var roman = '';
 
-  if (parts.thousands) {
-    roman += getRoman(parts.thousands);
-  }
+  if (num < 0) {
+    roman = undefined;
+  } else {
+    parts = getParts(num);
+    if (parts.thousands) {
+      roman += getRoman(parts.thousands);
+    }
 
-  if (parts.hundreds) {
-    roman += getRoman(parts.hundreds);
-  }
+    if (parts.hundreds) {
+      roman += getRoman(parts.hundreds);
+    }
 
-  if (parts.tens) {
-    roman += getRoman(parts.tens);
-  }
+    if (parts.tens) {
+      roman += getRoman(parts.tens);
+    }
 
-  if (parts.ones) {
-    roman += getRoman(parts.ones);
+    if (parts.ones) {
+      roman += getRoman(parts.ones);
+    }
   }
 
   return roman;
@@ -299,9 +164,12 @@ var fromRoman = function (roman) {
 };
 
 var isNumber = function (number) {
-  return typeof number === 'number' || number.constructor === Number;
+  return (number !== undefined && number !== null) &&
+    (number === 'number' || number.constructor === Number);
 };
 
 module.exports = function (input) {
-  return isNumber(input) ? toRoman(input) : fromRoman(input);
+  return (input === undefined || input === null) ?
+    undefined :
+    isNumber(input) ? toRoman(input) : fromRoman(input);
 };

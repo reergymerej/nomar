@@ -100,7 +100,7 @@ var fromRoman = function (roman) {
   var lastVal;
 
   roman.split('').reverse().forEach(function (val) {
-    val = SYMBOLS[val.toUpperCase()];
+    val = SYMBOLS[val && val.toUpperCase()] || 0;
 
     if (val < lastVal) {
       sum -= val;

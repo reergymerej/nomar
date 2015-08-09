@@ -47,6 +47,12 @@ describe('roman numerals to arabic', function () {
       will(app('XLIX')).be(49);
     });
   });
+
+  describe('being graceful', function () {
+    it('should ignore invalid characters', function () {
+      will(app('XQIX')).be(19);
+    });
+  });
 });
 
 // xdescribe('1-10', function () {

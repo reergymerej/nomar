@@ -11,6 +11,5 @@ console.log(app(1)); // I
 ```
 
 ## TODO
-* roman - arabic
+* validate roman input
 * arabic - roman
-* detect input type, return opposite

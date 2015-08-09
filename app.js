@@ -83,5 +83,39 @@ var toRoman = function (num) {
   return result;
 };
 
+var SYMBOLS = {
+  'I': 1,
+  'V': 5,
+  'X': 10,
+  'L': 50,
+  'C': 100,
+  'D': 500,
+  'M': 1000
+};
 
-module.exports = toRoman;
+var fromRoman = function (roman) {
+  var sum = 0;
+  var lastVal;
+
+  roman.split('').reverse().forEach(function (val) {
+    val = SYMBOLS[val.toUpperCase()];
+
+    if (val < lastVal) {
+      sum -= val;
+    } else {
+      sum += val;
+    }
+
+    lastVal = val;
+  });
+
+  return sum;
+};
+
+var isNumber = function (number) {
+  return typeof number === 'number' || number.constructor === Number;
+};
+
+module.exports = function (input) {
+  return isNumber(input) ? toRoman(input) : fromRoman(input);
+};

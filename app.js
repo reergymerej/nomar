@@ -10,97 +10,15 @@ var SYMBOLS = {
   'M': 1000
 };
 
-var thresholds = Object.keys(SYMBOLS).map(function (symbol) {
-  return SYMBOLS[symbol];
-}).sort(function (a, b) {
-  return b - a;
-});
-
-var REVERSE = {
-  1: 'I',
-  5: 'V',
-  10: 'X',
-  50: 'L',
-  100: 'C',
-  500: 'D',
-  1000: 'M'
+var HASH = {
+  ones: ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'],
+  tens: ['X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC'],
+  hundreds: ['C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'],
+  thousands: ['M', 'MM', 'MMM']
 };
 
-var SUBTRACTIVE = {
-  4: 'IV',
-  9: 'IX',
-  40: 'XL',
-  90: 'XC',
-  400: 'XD',
-  900: 'CM'
-};
-
-var SUB_THRESH = {
-  5: 1,
-  10: 1,
-  50: 10,
-  100: 10,
-  500: 100,
-  1000: 100
-};
-
-var getThreshold = function (num) {
-  var _threshold;
-
-  thresholds.every(function (threshold) {
-    if (num >= threshold) {
-      _threshold = threshold;
-    }
-
-    return !_threshold;
-  });
-
-  return _threshold;
-};
-
-var getNextThreshold = function (num) {
-  var threshold = getThreshold(num);
-  var index = thresholds.indexOf(threshold);
-  return thresholds[index - 1];
-};
-
-var getSubtractiveThreshold = function (num) {
-  return SUB_THRESH[num];
-};
-
-var getRoman = function (num) {
-  var roman = '';
-  var threshold = getThreshold(num);
-  var thresholdRoman = REVERSE[threshold];
-  var nextThreshold = getNextThreshold(num);
-  var nextThresholdRoman = REVERSE[nextThreshold];
-  var required = Math.floor(num / threshold);
-  var accountedFor = 0;
-  var isSubtractive = !!SUBTRACTIVE[num];
-  var subtractiveThreshold;
-  var subtractiveThresholdRoman;
-  var remaining;
-  
-  if (required === 4 || isSubtractive) {
-    subtractiveThreshold = getSubtractiveThreshold(nextThreshold);
-    subtractiveThresholdRoman = REVERSE[subtractiveThreshold];
-
-    roman += subtractiveThresholdRoman + nextThresholdRoman;
-    accountedFor += nextThreshold - subtractiveThreshold;
-  } else {
-    while (required--) {
-      roman += thresholdRoman;
-      accountedFor += threshold;
-    }
-  }
-
-  remaining = num - accountedFor;
-
-  if (remaining) {
-    roman += getRoman(remaining);
-  }
-
-  return roman;
+var getRomanByUnit = function (num, unit) {
+  return HASH[unit][num - 1];
 };
 
 var getParts = function (num) {
@@ -110,9 +28,9 @@ var getParts = function (num) {
 
   return {
     ones: num[0],
-    tens: num[1] && num[1] * 10,
-    hundreds: num[2] && num[2] * 100,
-    thousands: num[3] && num[3] * 1000
+    tens: num[1],
+    hundreds: num[2],
+    thousands: num[3]
   };
 };
 
@@ -124,20 +42,21 @@ var toRoman = function (num) {
     roman = undefined;
   } else {
     parts = getParts(num);
+
     if (parts.thousands) {
-      roman += getRoman(parts.thousands);
+      roman += getRomanByUnit(parts.thousands, 'thousands');
     }
 
     if (parts.hundreds) {
-      roman += getRoman(parts.hundreds);
+      roman += getRomanByUnit(parts.hundreds, 'hundreds');
     }
 
     if (parts.tens) {
-      roman += getRoman(parts.tens);
+      roman += getRomanByUnit(parts.tens, 'tens');
     }
 
     if (parts.ones) {
-      roman += getRoman(parts.ones);
+      roman += getRomanByUnit(parts.ones, 'ones');
     }
   }
 

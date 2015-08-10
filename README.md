@@ -1,4 +1,4 @@
-# Roman Numerals v1.0.0 [![Build Status](https://travis-ci.org/reergymerej/nomar.svg?branch=master)](https://travis-ci.org/reergymerej/roman-numerals)
+# Roman Numerals v1.0.0 [![Build Status](https://travis-ci.org/reergymerej/nomar.svg?branch=master)](https://travis-ci.org/reergymerej/nomar)
 
 Convert to/from [Roman numerals](https://en.wikipedia.org/wiki/Roman_numerals#Roman_numeric_system) with ease.
 

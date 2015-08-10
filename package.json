@@ -1,21 +1,33 @@
 {
-  "name": "roman-numerals",
+  "name": "nomar",
   "version": "1.0.0",
-  "description": "[reference](https://en.wikipedia.org/wiki/Roman_numerals#Roman_numeric_system)",
+  "description": "Convert to/from Roman numerals with ease.",
+  "keywords": [
+    "roman numerals",
+    "roman numeral conversion",
+    "roman to arabic",
+    "arabic to roman",
+    "roman",
+    "numeral",
+    "numerals",
+    "arabic",
+    "number",
+    "conversion"
+  ],
   "main": "app.js",
   "scripts": {
     "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reergymerej/roman-numerals.git"
+    "url": "git+https://github.com/reergymerej/nomar.git"
   },
   "author": "Jeremy Greer <jeremy.greer.atl@gmail.com> (http://jeremygreer.herokuapp.com/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/reergymerej/roman-numerals/issues"
+    "url": "https://github.com/reergymerej/nomar/issues"
   },
-  "homepage": "https://github.com/reergymerej/roman-numerals#readme",
+  "homepage": "https://github.com/reergymerej/nomar#readme",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "^0.6.1",

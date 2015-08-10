@@ -1,16 +1,24 @@
-# Roman Numerals [![Build Status](https://travis-ci.org/reergymerej/roman-numerals.svg?branch=master)](https://travis-ci.org/reergymerej/roman-numerals)
+# Roman Numerals v1.0.0 [![Build Status](https://travis-ci.org/reergymerej/roman-numerals.svg?branch=master)](https://travis-ci.org/reergymerej/roman-numerals)
 
-[reference](https://en.wikipedia.org/wiki/Roman_numerals#Roman_numeric_system)
+Convert to/from [Roman numerals](https://en.wikipedia.org/wiki/Roman_numerals#Roman_numeric_system) with ease.
 
-## Examples
 ```js
-var app = require('roman-numerals');
+var nomar = require('nomar');
 
-console.log(app('LXXXIX')); // 89
-console.log(app(1)); // I
+nomar('LXXXIX');  // 89
+nomar('lxxxix');  // 89
+nomar(89);        // LXXXIX
+nomar(0);         // ''
 
+// invalid values
+nomar();          // undefined
+nomar(null);      // undefined
+nomar(-1);        // undefined
+nomar(4000);      // undefined
 ```
 
-## TODO
-* validate roman input
-* arabic - roman
+### Installation
+
+```sh
+npm install nomar
+```

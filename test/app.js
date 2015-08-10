@@ -3,63 +3,63 @@
 var will = require('willy').will;
 var app = require('../app.js');
 
-// xdescribe('roman numerals to arabic', function () {
-//   describe('basic', function () {
-//     var map;
+describe('roman numerals to arabic', function () {
+  describe('basic', function () {
+    var map;
 
-//     before(function () {
-//       map = {
-//         'I': 1,
-//         'II': 2,
-//         'III': 3,
-//         'IV': 4,
-//         'V': 5,
-//         'VI': 6,
-//         'VII': 7,
-//         'VIII': 8,
-//         'IX': 9,
-//         'X': 10
-//       };
-//     });
+    before(function () {
+      map = {
+        'I': 1,
+        'II': 2,
+        'III': 3,
+        'IV': 4,
+        'V': 5,
+        'VI': 6,
+        'VII': 7,
+        'VIII': 8,
+        'IX': 9,
+        'X': 10
+      };
+    });
 
-//     it('should work', function () {
-//       Object.keys(map).forEach(function (roman) {
-//         console.log('    %s -> %s', roman, map[roman]);
-//         will(app(roman)).be(map[roman]);
-//       });
-//     });
+    it('should work', function () {
+      Object.keys(map).forEach(function (roman) {
+        console.log('    %s -> %s', roman, map[roman]);
+        will(app(roman)).be(map[roman]);
+      });
+    });
 
-//     it('should work for lower case', function () {
-//       Object.keys(map).forEach(function (roman) {
-//         var lower = roman.toLowerCase();
-//         console.log('    %s -> %s', lower, map[roman]);
-//         will(app(lower)).be(map[roman]);
-//       });
-//     });
-//   });
+    it('should work for lower case', function () {
+      Object.keys(map).forEach(function (roman) {
+        var lower = roman.toLowerCase();
+        console.log('    %s -> %s', lower, map[roman]);
+        will(app(lower)).be(map[roman]);
+      });
+    });
+  });
 
-//   describe('spot check', function () {
-//     it('89  LXXXIX', function () {
-//       will(app('LXXXIX')).be(89);
-//     });
+  describe('spot check', function () {
+    it('89  LXXXIX', function () {
+      will(app('LXXXIX')).be(89);
+    });
 
-//     it('49  XLIX', function () {
-//       will(app('XLIX')).be(49);
-//     });
-//   });
+    it('49  XLIX', function () {
+      will(app('XLIX')).be(49);
+    });
+  });
 
-//   describe('being graceful', function () {
-//     it('should ignore invalid characters', function () {
-//       will(app('XQIX')).be(19);
-//     });
-//   });
-// });
+  describe('being graceful', function () {
+    it('should ignore invalid characters', function () {
+      will(app('XQIX')).be(19);
+    });
+  });
+});
 
-// xdescribe('max number', function () {
-//   it('should return undefined for anything over 3999', function () {
-//     will(app(4000)).be(undefined);
-//   });
-// });
+describe('max number', function () {
+  it('should return undefined for anything over 3999', function () {
+    will(app(4000)).be(undefined);
+  });
+});
 
 describe('1-10', function () {
   it('1 -> I', function () {

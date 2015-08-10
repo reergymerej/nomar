@@ -10,54 +10,60 @@ var SYMBOLS = {
   'M': 1000
 };
 
-var HASH = {
-  ones: ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'],
-  tens: ['X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC'],
-  hundreds: ['C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'],
-  thousands: ['M', 'MM', 'MMM']
+var UNITS = {
+  ONES: 'ONES',
+  TENS: 'TENS',
+  HUNDREDS: 'HUNDREDS',
+  THOUSANDS: 'THOUSANDS'
 };
+
+var HASH = {};
+HASH[UNITS.ONES] = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'];
+HASH[UNITS.TENS] =  ['X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC'];
+HASH[UNITS.HUNDREDS] = ['C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'];
+HASH[UNITS.THOUSANDS] = ['M', 'MM', 'MMM'];
+
+var DESC_UNITS = [
+  UNITS.THOUSANDS,
+  UNITS.HUNDREDS,
+  UNITS.TENS,
+  UNITS.ONES
+];
+
+var MAX = 3999;
 
 var getRomanByUnit = function (num, unit) {
   return HASH[unit][num - 1];
 };
 
 var getParts = function (num) {
+  var parts = {};
   num = (num + '').split('').reverse().map(function (x) {
     return parseInt(x);
   });
 
-  return {
-    ones: num[0],
-    tens: num[1],
-    hundreds: num[2],
-    thousands: num[3]
-  };
+  parts[UNITS.ONES] = num[0];
+  parts[UNITS.TENS] = num[1];
+  parts[UNITS.HUNDREDS] = num[2];
+  parts[UNITS.THOUSANDS] = num[3];
+
+  return parts;
 };
 
 var toRoman = function (num) {
   var parts;
   var roman = '';
 
-  if (num < 0) {
+  if (num < 0 || num > MAX) {
     roman = undefined;
   } else {
     parts = getParts(num);
 
-    if (parts.thousands) {
-      roman += getRomanByUnit(parts.thousands, 'thousands');
-    }
-
-    if (parts.hundreds) {
-      roman += getRomanByUnit(parts.hundreds, 'hundreds');
-    }
-
-    if (parts.tens) {
-      roman += getRomanByUnit(parts.tens, 'tens');
-    }
-
-    if (parts.ones) {
-      roman += getRomanByUnit(parts.ones, 'ones');
-    }
+    DESC_UNITS.forEach(function (unit) {
+      if (parts[unit]) {
+        roman += getRomanByUnit(parts[unit], unit);
+      }
+    });
   }
 
   return roman;

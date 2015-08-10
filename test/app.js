@@ -167,3 +167,17 @@ describe('invalid values', function () {
     will(app(0)).be('');
   });
 });
+
+describe('arrays', function () {
+  it('should handle arrays of numbers', function () {
+    will(app([1, 2, 3])).have(['I', 'II', 'III']);
+  });
+
+  it('should handle arrays of roman', function () {
+    will(app(['I', 'II', 'III'])).have([1, 2, 3]);
+  });
+
+  it('should handle arrays of numbers/roman', function () {
+    will(app(['I', 2, 'III'])).have([1, 'II', 3]);
+  });
+});

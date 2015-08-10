@@ -1,14 +1,15 @@
-# Roman Numerals v1.0.1 [![Build Status](https://travis-ci.org/reergymerej/nomar.svg?branch=master)](https://travis-ci.org/reergymerej/nomar)
+[![Build Status](https://travis-ci.org/reergymerej/nomar.svg?branch=1.1.0)](https://travis-ci.org/reergymerej/nomar)
 
 Convert to/from [Roman numerals](https://en.wikipedia.org/wiki/Roman_numerals#Roman_numeric_system) with ease.
 
 ```js
 var nomar = require('nomar');
 
-nomar('LXXXIX');  // 89
-nomar('lxxxix');  // 89
-nomar(89);        // LXXXIX
-nomar(0);         // ''
+nomar('LXXXIX');        // 89
+nomar('lxxxix');        // 89
+nomar(89);              // LXXXIX
+nomar(0);               // ''
+nomar(['I', 4, 'X']);   // [1, 'IV', 10]
 
 // invalid values
 nomar();          // undefined

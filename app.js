@@ -93,8 +93,22 @@ var isNumber = function (number) {
     (number === 'number' || number.constructor === Number);
 };
 
-module.exports = function (input) {
+var convert = function (input) {
   return (input === undefined || input === null) ?
     undefined :
     isNumber(input) ? toRoman(input) : fromRoman(input);
+};
+
+module.exports = function (input) {
+  var result = [];
+
+  if (Array.isArray(input)) {
+    input.forEach(function (input) {
+      result.push(convert(input));
+    });
+
+    return result;
+  }
+
+  return convert(input);
 };

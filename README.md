@@ -16,6 +16,10 @@ nomar();          // undefined
 nomar(null);      // undefined
 nomar(-1);        // undefined
 nomar(4000);      // undefined
+
+// validation
+nomar.validate('XXII'); // true
+nomar.validate('XIXI'); // false
 ```
 
 ### Installation

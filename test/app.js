@@ -181,3 +181,30 @@ describe('arrays', function () {
     will(app(['I', 2, 'III'])).have([1, 'II', 3]);
   });
 });
+
+describe('detecting valid roman', function () {
+  it('should work', function () {
+    var t = function (roman, expected) {
+      console.log(roman, expected);
+      will(app.validate(roman)).be(expected);
+    };
+
+    var obj = {
+      'I': true, 'II': true, 'III': true, 'IV': true, 'V': true, 'VI': true, 'VII': true, 'VIII': true, 'IX': true,
+      'X': true, 'XX': true, 'XXX': true, 'XL': true, 'L': true, 'LX': true, 'LXX': true, 'LXXX': true, 'XC': true,
+      'XCVII': true, 'XVCIVI': false,
+      'C': true,
+      'CC': true,
+      'CCC': true,
+      'CD': true,
+      'D': true,
+      'DC': true,
+      'DCC': true,
+      'DCCC': true,
+    };
+
+    Object.keys(obj).forEach(function (key) {
+      t(key, obj[key]);
+    });
+  });
+});

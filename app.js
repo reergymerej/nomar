@@ -99,7 +99,7 @@ var convert = function (input) {
     isNumber(input) ? toRoman(input) : fromRoman(input);
 };
 
-module.exports = function (input) {
+var handle = function (input) {
   var result = [];
 
   if (Array.isArray(input)) {
@@ -112,3 +112,15 @@ module.exports = function (input) {
 
   return convert(input);
 };
+
+
+// M D C L X V I
+// var REGEX = /^(ix|vi{0,3}|iv|i{0,3})?$/i;
+// var REGEX = /^(xc|lx{0,3}|l|xl|x{0,3})?(ix|vi{0,3}|iv|i{0,3})?$/i;
+var REGEX = /^(cm|dc{0,3}|d|cd|c{0,3})?(xc|lx{0,3}|l|xl|x{0,3})?(ix|vi{0,3}|iv|i{0,3})?$/i;
+
+handle.validate = function (roman) {
+  return REGEX.test(roman);
+};
+
+module.exports = handle;
